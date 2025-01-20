@@ -19,6 +19,31 @@ description: This project deploys a web application for a space travel agency us
 
 This project deploys a web application for a space travel agency using Django. The application can be deployed to Azure with Azure Container Apps using the [Azure Developer CLI](https://learn.microsoft.com/azure/developer/azure-developer-cli/overview).
 
+## Installation
+
+### 1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/icon-generation-project.git
+cd icon-generation-project
+```
+
+### 2. Set up a virtual environment:
+```bash
+python -m venv venv
+source venv/bin/activate  # For Linux/Mac
+venv\Scripts\activate   # For Windows
+```
+
+### 3. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the server:
+```bash
+python manage.py runserver
+```
+
 ## Opening the project
 
 This project has [Dev Container support](https://code.visualstudio.com/docs/devcontainers/containers), so it will be setup automatically if you open it in Github Codespaces or in local VS Code with the [Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers).

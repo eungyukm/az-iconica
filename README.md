@@ -23,8 +23,7 @@ This project deploys a web application for a space travel agency using Django. T
 
 ### 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/icon-generation-project.git
-cd icon-generation-project
+git clone https://github.com/eungyukm/az-iconica.git
 ```
 
 ### 2. Set up a virtual environment:
@@ -32,16 +31,6 @@ cd icon-generation-project
 python -m venv venv
 source venv/bin/activate  # For Linux/Mac
 venv\Scripts\activate   # For Windows
-```
-
-### 3. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Run the server:
-```bash
-python manage.py runserver
 ```
 
 ## Opening the project
